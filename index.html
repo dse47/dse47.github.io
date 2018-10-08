@@ -6,9 +6,30 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #3b3b3b;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Crimson Text', serif; 
+        }
+
         body {
             margin: 0px;
         }
+
         .site {
             width: 1000px;
             margin-top: 60px;
@@ -16,10 +37,12 @@
             margin-bottom: 0px;
             margin-left: auto;
         }
+
         h1 { 
             font-family: 'Crimson Text', serif; 
             color: #3b3b3b;
         }
+
         p { 
             font-family: 'Crimson Text', serif; 
             font-style: italic;
@@ -29,11 +52,11 @@
 </head>
 <body>
     <ul>
-        <li>Dong-Seop Eah</li>
-        <li style="float:right">Home</li>
-        <li style="float:right">About</li>
-        <li style="float:right">Blog</li>
-        <li style="float:right">Contact</li>
+        <li><a href="#">Dong-Seop Eah</a></li>
+        <li style="float:right"><a href="#home">Home</a></li>
+        <li style="float:right"><a href="#contact">Contact</a></li>
+        <li style="float:right"><a href="#blog">Blog</a></li>
+        <li style="float:right"><a href="#about">About</a></li>
     </ul>
 
 <!--     <div class="site">
