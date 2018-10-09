@@ -86,6 +86,67 @@
             -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
         }
+
+        .blinking-cursor {
+            font-family: 'Crimson Text', serif; 
+            color: #3b3b3b;
+            font-weight: 100;
+            font-size: 48px;
+            -webkit-animation: 1s blink step-end infinite;
+            -moz-animation: 1s blink step-end infinite;
+            -ms-animation: 1s blink step-end infinite;
+            -o-animation: 1s blink step-end infinite;
+            animation: 1s blink step-end infinite;
+        }
+
+        @keyframes "blink" {
+            from, to {
+                color: transparent;
+            }
+            50% {
+                color: black;
+            }
+        }
+
+        @-moz-keyframes blink {
+            from, to {
+                color: transparent;
+            }
+            50% {
+                color: black;
+            }
+        }
+
+        @-webkit-keyframes "blink" {
+            from, to {
+                color: transparent;
+            }
+            50% {
+                color: black;
+            }
+        }
+
+        @-ms-keyframes "blink" {
+            from, to {
+                color: transparent;
+            }
+            50% {
+                color: black;
+            }
+        }
+
+        @-o-keyframes "blink" {
+            from, to {
+                color: transparent;
+            }
+            50% {
+                color: black;
+            }
+        }
+
+        .title > h1 {
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -101,6 +162,7 @@
 
     <div class="title">
         <h1>Website under construction. Coming soon.</h1>
+        <span class="blinking-cursor">|</span>
     </div>
 
     <div class="footer">
