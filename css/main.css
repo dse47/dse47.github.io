@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-    font-kerning: 'Crimson Text', serif;
+    font-family: 'Crimson Text', serif;
     color: #3b3b3b;
     font-weight: 100;
 }
