@@ -175,3 +175,11 @@ img {
     height: 100%;
     padding-top: 5%;
 }
+
+.bloglist {
+    list-style-type: none;
+}
+
+.bloglist li {
+    float: none;
+}
