@@ -183,3 +183,7 @@ img {
 .bloglist li {
     float: none;
 }
+
+.bloglist h2 {
+    font-size: 1em;
+}
