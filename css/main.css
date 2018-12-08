@@ -147,8 +147,6 @@ p {
 
 img {
     pointer-events: none;
-    box-shadow: 0 0 0 0 rgba(0,0,0,0.12), 0 9px 25px 1px rgba(0,0,0,0.12), 0 10px 45px 0 rgba(0,0,0,0.12);
-    border-radius: 3%;
 }
 
 .container {
@@ -169,6 +167,11 @@ img {
     height: 100%;
 }
 
+.left-column img {
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.12), 0 9px 25px 1px rgba(0,0,0,0.12), 0 10px 45px 0 rgba(0,0,0,0.12);
+    border-radius: 3%;
+}
+
 .right-column {
     float: left;
     width: 40%;
@@ -186,4 +189,25 @@ img {
 
 .bloglist h2 {
     font-size: 1em;
+}
+
+
+/* Photo Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 5px;
+}
+
+.column img {
+    width: 100%;
+    margin-top: 10px;
+    vertical-align: middle;
 }
