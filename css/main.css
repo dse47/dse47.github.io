@@ -219,6 +219,15 @@ img {
     margin-top: 30px;
 }
 
+.photo-container img {
+    pointer-events: auto;
+    -webkit-filter: brightness(100%);
+}
+
+.photo-container img:hover {
+    -webkit-filter: brightness(80%);
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
